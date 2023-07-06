@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E1FFB1;
+    color: #1d1e2c;
+}
+.col1,tbody{
+   background-color: #C7F2A4;
+   box-shadow: 1px 1px 5px rgb(175, 170, 170);
+                     
+}
+label,h1{
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+button{
+    background-color: #54BAB9 !important;
+    border: #456268 !important;
+    box-shadow: 1px 1px 10px rgb(165, 163, 163);
+
+} 
+table{
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border: 1px solid #54BAB9;
+}
+.box{
+    margin: 1%;
+}
+@media screen and( min-width:567px){
+    .modified{
+        width:100%
+    }
+}
